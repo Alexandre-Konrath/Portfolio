@@ -59,27 +59,39 @@ export default function DetalhesProjetosPropsReact(props: ComponentProps) {
           {/* Exibir a imagem atual com base no índice atual */}
           <img src={props.image[currentImageIndex]} alt='' />
         </div>
-        <div className='tecnologias'>
-          <div className='titulo'>
-            <h1>Tecnologias Utilizadas</h1>
+        <div className='tecnologia-desafios'>
+          <div className='tecnologias'>
+            <div className='titulo'>
+              <h1>Tecnologias Utilizadas</h1>
+            </div>
+            <div className='porcentagem-tecnologias'>
+              <div className='nome-tecnologia'>
+                <p className={props.cortecnologia1}>{`${props.tecnologia1}`}</p>
+                <p className={props.cortecnologia2}>{props.tecnologia2}</p>
+                <p className={props.cortecnologia3}>{props.tecnologia3}</p>
+              </div>
+              <div className='porcentagem-projeto'>
+                <div className={`${props.classe1} ${props.porcentagemclass1}`}>
+                  <span>{props.porcentagem1}</span>
+                </div>
+                <div className={`${props.classe2} ${props.porcentagemclass2}`}>
+                  <span>{props.porcentagem2}</span>
+                </div>
+                <div className={`${props.classe3} ${props.porcentagemclass3}`}>
+                  <span>{props.porcentagem3}</span>
+                </div>
+              </div>
+            </div>
           </div>
-          <div className='porcentagem-tecnologias'>
-            <div className='nome-tecnologia'>
-              <p className={props.cortecnologia1}>{`${props.tecnologia1}`}</p>
-              <p className={props.cortecnologia2}>{props.tecnologia2}</p>
-              <p className={props.cortecnologia3}>{props.tecnologia3}</p>
-            </div>
-            <div className='porcentagem-projeto'>
-              <div className={`${props.classe1} ${props.porcentagemclass1}`}>
-                <span>{props.porcentagem1}</span>
-              </div>
-              <div className={`${props.classe2} ${props.porcentagemclass2}`}>
-                <span>{props.porcentagem2}</span>
-              </div>
-              <div className={`${props.classe3} ${props.porcentagemclass3}`}>
-                <span>{props.porcentagem3}</span>
-              </div>
-            </div>
+          <div className='desafios'>
+            <h1>Meus desafios</h1>
+            <p>
+              Um projeto bem mais complexo e robusco, modesta a parte, eu diria que é uma clone do
+              ifood. Com diversas funcionalidade, cardápio com diversos produtos, tem a opção de
+              adicionar ao carrinho, retirar produtos ou adicionar mais se queiser, seus dados de
+              carrinho ficam salvos se por algum acaso recarregar a pagina, depois também tem o
+              metodo de pagamento, com filtros de cartão de credito, cpf, numero
+            </p>
           </div>
         </div>
       </div>

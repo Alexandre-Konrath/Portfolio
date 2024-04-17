@@ -112,9 +112,19 @@ const foodCommerce = {
     foodcommerce8,
     foodcommerce9,
   ],
-  texto:
-    'O código permite a obtenção de itens de cardápio, inclusão no carrinho de compras, remoção de itens do carrinho, entre outras operações. Integração com API: Há integração com a API do ViaCep para obter informações de endereço a partir do CEP, informado pelo usuário. Atualização Dinâmica de Página: O código atualiza dinamicamente a página com informações sobre itens no carrinho, valores totais, etc., sem a necessidade de recarregar a página.',
-  lista: ['-> terfa 1', 'ㅤㅤ- terfa 2', '-> terfa 2', '-> terfa 4', '-> terfa 5', 'ㅤㅤ- terfa 6'],
+  texto: `Um projeto bem mais complexo e robusco, modesta a parte, eu diria que é uma "clone do ifood". Com diversas funcionalidade, cardápio com diversos produtos, tem a opção de adicionar ao carrinho, retirar produtos ou adicionar mais se queiser, seus dados de carrinho ficam salvos se por algum acaso recarregar a pagina, depois também tem o metodo de pagamento, com filtros de cartão de credito, cpf, numero de telefone, entre outros. Usando o metodo de pagamento com a api do Asaas, porem nada proficional. Usei o Postgres como Bando de Dados para salvar os dados do cardápio, dados de compra e pagamento tambem ficam todos registrados, e mais outras funcionalidade
+  adicionar ao carrinho, retirar produtos ou adicionar mais se queiser, seus dados de
+  carrinho ficam salvos se por algum acaso recarregar a pagina, depois também tem o
+  metodo de pagamento, com filtros de cartão de credito, cpf, numer
+
+  `,
+  lista: [
+    '-> useState',
+    '-> Uso de Props',
+    'ㅤ - para manipular objetos ',
+    '-> função .map',
+    'ㅤ- para mapear os itens das props e fazer uma metodo de navegação',
+  ],
   link: 'https://teste',
   pasta: '/reactprops',
 

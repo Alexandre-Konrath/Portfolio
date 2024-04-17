@@ -4,7 +4,7 @@ import { Container } from './styles'
 export default function Sobre() {
   return (
     <Container>
-      <Titulo nome='ㅤ' subnome='Sobre' />
+      <Titulo nome='Sobre' subnome='min' />
       <div className='Introdução'>
         <h1>
           Olá sou o Alexandre de Lima Konrath, desde ja agradeço por ter chego até aqui, e ter visto

@@ -19,12 +19,11 @@ export const Container = styled.div`
       align-items: center;
 
       .img {
-        width: 100%;
+        width: 90%;
         height: 90vh;
 
         display: flex;
-        justify-content: center;
-        align-items: center;
+        justify-content: start;
 
         img {
           width: 95%;
@@ -35,8 +34,16 @@ export const Container = styled.div`
         }
       }
 
-      .tecnologias {
-        width: 90%;
+      .tecnologia-desafios {
+        width: 100%;
+        height: 30vh;
+        margin-top: 20px;
+
+        display: flex;
+        flex-direction: row;
+
+        .tecnologias {
+        width: 40%;
         height: 50vh;
 
         display: flex;
@@ -50,13 +57,14 @@ export const Container = styled.div`
           margin-bottom: 20px;
 
           h1 {
-            font-size: 2rem;
+            font-size: 1.8rem;
 
             color: ${({theme}) => theme.colors.purple_secondary};
-            border-bottom: 2px solid ${({theme}) => theme.colors.blackTitle};;
+            border-bottom: 2px solid ${({theme}) => theme.colors.blackTitle};
           }
 
         }
+
         .porcentagem-tecnologias{
           display: flex;
           flex-direction: row;
@@ -65,71 +73,46 @@ export const Container = styled.div`
           .nome-tecnologia {
             width: 20%;
             height: 100%;
+            margin-left: 20px;
+
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
+
+            p {
+              font-size: 1.2rem;
+              margin-bottom: 20px;
+            }
           }
 
-
           .porcentagem-projeto {
-            width: 80%;
-            height: 100%;
+            width: 70%;
+            height: 1rem;
 
-            .porcentagem1 {
-              display: flex;
-              align-items: start;
+          }
+        }
+      }
 
-              width: 80%;
-              height: 2rem;
-              margin-bottom: 10px;
-              border-radius: 50px;
+        .desafios {
+          width: 50%;
+          height: 50vh;
 
-              background-color: ${({theme}) => theme.colors.html};
+          display: flex;
+          flex-direction: column;
+          align-items: center;
 
-              span {
-                color: ${({theme}) => theme.colors.black};
-                font-size: 1.5rem;
-                margin-left: 10px;
-                margin-top: 3px;
-              }
-            }
-            .porcentagem2 {
-              display: flex;
-              align-items: start;
+          h1 {
+            font-size: 1.8rem;
+            color: ${({theme}) => theme.colors.purple_secondary};
+            border-bottom: 2px solid ${({theme}) => theme.colors.blackTitle};
+          }
 
-              width: 50%;
-              height: 2rem;
-              margin-bottom: 10px;
-              border-radius: 50px;
-
-              background-color: ${({theme}) => theme.colors.css};
-
-              span {
-                color: ${({theme}) => theme.colors.black};
-                font-size: 1.5rem;
-                margin-left: 10px;
-                margin-top: 3px;
-              }
-            }
-            .porcentagem3 {
-              display: flex;
-              align-items: start;
-
-              width: 8%;
-              height: 2rem;
-              margin-bottom: 10px;
-              border-radius: 50px;
-
-              background-color: ${({theme}) => theme.colors.javascript};
-
-              span {
-                color: ${({theme}) => theme.colors.black};
-                font-size: 1.5rem;
-                margin-left: 10px;
-                margin-top: 3px;
-              }
-            }
+          p {
+            font-size: 1.1rem;
+            text-align: center;
+            color: ${({theme}) => theme.colors.white400};
+            line-height: 1.6rem;
           }
         }
       }
@@ -138,16 +121,17 @@ export const Container = styled.div`
     .esquerda {
       width: 40%;
       height: 81vh;
+
       display: flex;
       flex-direction: column;
       align-items: center;
 
       .texto-apresentacao {
-        width: 80%;
-        height: 70%;
+        width: 95%;
+        height: 90%;
 
         margin-top: 10px;
-        margin-bottom: 30px;
+        margin-right: 60px;
 
         h1 {
           text-align: center;
@@ -162,13 +146,13 @@ export const Container = styled.div`
         }
 
         ul li {
-          font-size: 1.2rem;
-          margin-bottom: 20px;
+          font-size: 1.1rem;
+          margin-bottom: 10px;
           color: ${({theme}) => theme.colors.white400};
         }
 
         p {
-          font-size: 1.2rem;
+          font-size: 1.1rem;
           text-align: center;
           color: ${({theme}) => theme.colors.white400};
           line-height: 1.6rem;
@@ -183,7 +167,6 @@ export const Container = styled.div`
       .link-projeto {
         display: flex;
         flex-direction: row;
-        margin-top: 80px;
         align-items: center;
 
         p {
@@ -289,85 +272,90 @@ export const Container = styled.div`
   display: flex;
   align-items: start;
 
-  height: 2rem;
-  margin-bottom: 10px;
+  height: 1.4rem;
+  margin-left: 15px;
+  margin-bottom: 20px;
   border-radius: 50px;
 
   background-color: ${({theme}) => theme.colors.typescript};
 }
 .typescript span {
+  font-weight: bold;
   color: ${({theme}) => theme.colors.black};
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin-left: 10px;
-  margin-top: 3px;
 }
 
 .html {
   display: flex;
   align-items: start;
 
-  height: 2rem;
-  margin-bottom: 10px;
+  height: 1.4rem;
+  margin-left: 15px;
+  margin-bottom: 20px;
   border-radius: 50px;
 
   background-color: ${({theme}) => theme.colors.html};
 }
 .html span {
+  font-weight: bold;
   color: ${({theme}) => theme.colors.black};
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin-left: 10px;
-  margin-top: 3px;
 }
 
 .css {
   display: flex;
   align-items: start;
 
-  height: 2rem;
-  margin-bottom: 10px;
+  height: 1.4rem;
+  margin-left: 15px;
+  margin-bottom: 20px;
   border-radius: 50px;
 
   background-color: ${({theme}) => theme.colors.css};
 }
 .css span {
+  font-weight: bold;
   color: ${({theme}) => theme.colors.black};
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin-left: 10px;
-  margin-top: 3px;
 }
 
 .javascript {
   display: flex;
   align-items: start;
 
-  height: 2rem;
-  margin-bottom: 10px;
+  height: 1.4rem;
+  margin-left: 15px;
+  margin-bottom: 20px;
   border-radius: 50px;
 
   background-color: ${({theme}) => theme.colors.javascript};
 }
 .javascript span {
+  font-weight: bold;
   color: ${({theme}) => theme.colors.black};
-  font-size: 1.5rem;
-  margin-left: 10px;
-  margin-top: 3px;
+  font-size: 1.2rem;
+  margin-left: 15px;
 }
 
 .react {
   display: flex;
   align-items: start;
 
-  height: 2rem;
-  margin-bottom: 10px;
+  height: 1.4rem;
+  margin-left: 15px;
+  margin-bottom: 20px;
   border-radius: 50px;
 
   background-color: ${({theme}) => theme.colors.typescript};
 }
 .react span {
+  font-weight: bold;
   color: ${({theme}) => theme.colors.black};
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin-left: 10px;
-  margin-top: 3px;
 }
 //
 //
