@@ -27,6 +27,8 @@ interface ComponentProps {
   porcentagem1: string
   porcentagem2: string
   porcentagem3: string
+
+  desafios: string
 }
 
 export default function DetalhesProjetosPropsReact(props: ComponentProps) {
@@ -85,27 +87,26 @@ export default function DetalhesProjetosPropsReact(props: ComponentProps) {
           </div>
           <div className='desafios'>
             <h1>Meus desafios</h1>
-            <p>
-              Um projeto bem mais complexo e robusco, modesta a parte, eu diria que é uma clone do
-              ifood. Com diversas funcionalidade, cardápio com diversos produtos, tem a opção de
-              adicionar ao carrinho, retirar produtos ou adicionar mais se queiser, seus dados de
-              carrinho ficam salvos se por algum acaso recarregar a pagina, depois também tem o
-              metodo de pagamento, com filtros de cartão de credito, cpf, numero
-            </p>
+            <p>{props.desafios}</p>
           </div>
         </div>
       </div>
+
       <div className='esquerda'>
         <div className='texto-apresentacao'>
-          <h1>{props.nome}</h1>
-          <p>{props.texto}</p>
-          <h2>Principais aprendizados neste projeto...</h2>
-          <ul>
-            {/* Mapeando cada item do array para um elemento <li> */}
-            {props.lista.map((item, index) => (
-              <li key={index}>{item}</li>
-            ))}
-          </ul>
+          <div className='texto'>
+            <h1>{props.nome}</h1>
+            <p>{props.texto}</p>
+            <h2>Principais aprendizados neste projeto...</h2>
+          </div>
+          <div className='lista'>
+            <ul>
+              {/* Mapeando cada item do array para um elemento <li> */}
+              {props.lista.map((item, index) => (
+                <li key={index}>{item}</li>
+              ))}
+            </ul>
+          </div>
         </div>
         <div className='link-projeto'>
           <p>Se desejar ver este projeto no ar... clique aqui!</p>
@@ -142,4 +143,6 @@ DetalhesProjetosPropsReact.propTypes = {
   porcentagem1: PropTypes.string.isRequired,
   porcentagem2: PropTypes.string.isRequired,
   porcentagem3: PropTypes.string.isRequired,
+
+  desafios: PropTypes.string.isRequired,
 }
