@@ -99,7 +99,7 @@ import restaurantewatsapp10 from './assets/restaurante-whatsapp/restaurante-what
 
 const foodCommerce = {
   nome: 'Food Commerce',
-  descricao: 'Eu diria um "clone do ifood"kkkk um projeto mais complexo e bem estruturado.',
+  descricao: 'Eu diria um "clone do ifood"kkkk um projeto bem completo e bem estruturado.',
   img: [
     foodcommerce1,
     foodcommerce2,
@@ -125,7 +125,7 @@ const foodCommerce = {
     '-> função .map',
     'ㅤ- para mapear os itens das props e fazer uma metodo de navegação',
   ],
-  link: 'https://teste',
+  link: '',
   pasta: '/reactprops',
 
   classe1: 'typescript',
@@ -145,6 +145,12 @@ const foodCommerce = {
   porcentagem1: '90%',
   porcentagem2: '80%',
   porcentagem3: '70%',
+
+  desafios: `Um projeto bem mais complexo e robusco, modesta a parte, eu diria que é uma clone do
+  ifood. Com diversas funcionalidade, cardápio com diversos produtos, tem a opção de
+  adicionar ao carrinho, retirar produtos ou adicionar mais se queiser, seus dados de
+  carrinho ficam salvos se por algum acaso recarregar a pagina, depois também tem o
+  metodo de pagamento, com filtros de cartão de credito, cpf, numero`,
 }
 const apiGitHub = {
   nome: 'Api GitHub',
@@ -153,7 +159,7 @@ const apiGitHub = {
   texto:
     'O código permite a obtenção de itens de cardápio, inclusão no carrinho de compras, remoção de itens do carrinho, entre outras operações. Integração com API: Há integração com a API do ViaCep para obter informações de endereço a partir do CEP, informado pelo usuário. Atualização Dinâmica de Página: O código atualiza dinamicamente a página com informações sobre itens no carrinho, valores totais, etc., sem a necessidade de recarregar a página.',
   lista: ['-> terfa 1', 'ㅤㅤ- terfa 2', '-> terfa 2', '-> terfa 4', '-> terfa 5', 'ㅤㅤ- terfa 6'],
-  link: 'https://teste',
+  link: '',
   pasta: '/reactprops',
 
   classe1: 'typescript',
@@ -173,6 +179,12 @@ const apiGitHub = {
   porcentagem1: '90%',
   porcentagem2: '80%',
   porcentagem3: '70%',
+
+  desafios: `Um projeto bem mais complexo e robusco, modesta a parte, eu diria que é uma clone do
+  ifood. Com diversas funcionalidade, cardápio com diversos produtos, tem a opção de
+  adicionar ao carrinho, retirar produtos ou adicionar mais se queiser, seus dados de
+  carrinho ficam salvos se por algum acaso recarregar a pagina, depois também tem o
+  metodo de pagamento, com filtros de cartão de credito, cpf, numero`,
 }
 const restauranteFood = {
   nome: 'Restaurante Food',
@@ -197,7 +209,7 @@ const restauranteFood = {
     '-> CRUD',
     'ㅤ- Create, Read, Update, Delete',
   ],
-  link: 'https://teste',
+  link: '',
   pasta: '/htmlcssprops',
 
   classe1: 'javascript',
@@ -217,10 +229,16 @@ const restauranteFood = {
   porcentagem1: '77.1%',
   porcentagem2: '20.3%',
   porcentagem3: '2.6%',
+
+  desafios: `Um projeto bem mais complexo e robusco, modesta a parte, eu diria que é uma clone do
+  ifood. Com diversas funcionalidade, cardápio com diversos produtos, tem a opção de
+  adicionar ao carrinho, retirar produtos ou adicionar mais se queiser, seus dados de
+  carrinho ficam salvos se por algum acaso recarregar a pagina, depois também tem o
+  metodo de pagamento, com filtros de cartão de credito, cpf, numero`,
 }
 const restauranteReact = {
   nome: 'Restaurante React',
-  descricao: 'Meu primeiro projeto react, é meio feio mas aprendi muito com elekkkkkkkkk',
+  descricao: 'Meu primeiro projeto react, é meio feio mas aprendi muito com ele',
   img: [restaurantereact1, restaurantereact2, restaurantereact3],
   texto:
     'Meu primeiro projeto de cardápio feito com React, confeço que a estilização não ficou das melhores, porem digo que aprendi muito com este projeto, de fato aprendi a pegar objetos em props e manipular elas na tela, da mesma forma que usei neste site. ',
@@ -231,7 +249,7 @@ const restauranteReact = {
     '-> função .map',
     'ㅤ- para mapear os itens das props e fazer uma metodo de navegação',
   ],
-  link: 'https://teste',
+  link: '',
   pasta: '/reactprops',
 
   classe1: 'javascript',
@@ -251,11 +269,16 @@ const restauranteReact = {
   porcentagem1: '68.8%',
   porcentagem2: '26.4%',
   porcentagem3: '4.8%',
+
+  desafios: `Um projeto bem mais complexo e robusco, modesta a parte, eu diria que é uma clone do
+  ifood. Com diversas funcionalidade, cardápio com diversos produtos, tem a opção de
+  adicionar ao carrinho, retirar produtos ou adicionar mais se queiser, seus dados de
+  carrinho ficam salvos se por algum acaso recarregar a pagina, depois também tem o
+  metodo de pagamento, com filtros de cartão de credito, cpf, numero`,
 }
 const todoList = {
   nome: 'Lista de Tarefas',
-  descricao:
-    'Uma Lista de Tarefas, para deixar seus dias mais ordanizados. Um projeto classico e bem divertido.',
+  descricao: 'Uma classica Lista de Tarefas, para deixar seus dias mais ordanizados.',
   img: [todolist],
   texto:
     'Uma aplicação básica de lista de tarefas(todo list) desenvolvida em React. Projeto um pouco mais complexo usando ao maximo o useState para manipular estados e funções ao invez de classe. Ademais, aprendi a fazer passagem de Props, que consiste em que os componentes filhos recebem dados e funções de manipulação de eventos como props, permitindo uma comunicação eficaz entre componentes.',
@@ -267,7 +290,7 @@ const todoList = {
     '-> Tratamento de Eventos',
     'ㅤ- onChange, onKeyDown, onClick',
   ],
-  link: 'https://teste',
+  link: '',
   pasta: '/reactprops',
 
   classe1: 'javascript',
@@ -287,6 +310,12 @@ const todoList = {
   porcentagem1: '62%',
   porcentagem2: '18.2%',
   porcentagem3: '19,8%',
+
+  desafios: `Um projeto bem mais complexo e robusco, modesta a parte, eu diria que é uma clone do
+  ifood. Com diversas funcionalidade, cardápio com diversos produtos, tem a opção de
+  adicionar ao carrinho, retirar produtos ou adicionar mais se queiser, seus dados de
+  carrinho ficam salvos se por algum acaso recarregar a pagina, depois também tem o
+  metodo de pagamento, com filtros de cartão de credito, cpf, numero`,
 }
 
 //
@@ -295,7 +324,7 @@ const todoList = {
 
 const pageCocaCola = {
   nome: 'Página Coca Cola',
-  descricao: 'É simples mas é de coração, uma homenagem a nossa querida coquinha',
+  descricao: 'Uma Simples pagina da nosssa coquina gelada',
   img: [pagecocacola1, pagecocacola2, pagecocacola3],
   texto:
     'Meu Segundo projeto com HTML e CSS, não podia faltar uma "homenagem" a nossa amada coquina. Neste projeto aprendi muitas coisas, como estruturar um Layout Responsivo e também como Estilizar e posicionar elementos, a estilização detalhada dos elementos, como cabeçalho, texto, botões e ícones.',
@@ -304,7 +333,7 @@ const pageCocaCola = {
     '-> Estilização detalhada de elementos HTML utilizando CSS para criar uma aparência visualmente atraente',
     '-> Adição de interatividade aos elementos da página por meio de efeitos de hover e transições suaves.',
   ],
-  link: 'https://pagecocacola.projetosalexandre.com/',
+  link: '',
   pasta: '/htmlcssprops',
 
   classe1: 'html',
@@ -324,13 +353,19 @@ const pageCocaCola = {
   porcentagem1: '73.4%',
   porcentagem2: '26.6%',
   porcentagem3: '',
+
+  desafios: `Um projeto bem mais complexo e robusco, modesta a parte, eu diria que é uma clone do
+  ifood. Com diversas funcionalidade, cardápio com diversos produtos, tem a opção de
+  adicionar ao carrinho, retirar produtos ou adicionar mais se queiser, seus dados de
+  carrinho ficam salvos se por algum acaso recarregar a pagina, depois também tem o
+  metodo de pagamento, com filtros de cartão de credito, cpf, numero`,
 }
 const pageDark = {
   nome: 'Page Dark',
   descricao: 'Uma simples pagina de login para treinar meu css na época.',
   img: [pagedark1, pagedark2],
   texto:
-    'Meu primeiro projeto feito com HTML e CSS foi uma experiência muito divertida, onde pude aplicar os conhecimentos básicos que adquiri. Inspirado por ideias encontradas na internet, decidi trazer uma delas na prática. Logo após aprender o básico de HTML, mergulhei na criação deste projeto. Utilizei um SVG da Storyset.com. Além disso tudo, me deu um start sobre como aproveitar recursos externos para melhorar a estética e a funcionalidade dos meus futuros projetos.',
+    'Meu primeiro projeto feito com HTML e CSS foi uma experiência muito divertida, onde pude aplicar os conhecimentos básicos que adquiri. Inspirado por ideias encontradas no youtube, decidi trazer uma delas na prática. Logo após aprender o básico de HTML, fui para a criação deste projeto. Utilizei um SVG da Storyset.com. Além disso tudo, me deu um start sobre como aproveitar recursos externos para melhorar a estética e a funcionalidade dos meus futuros projetos.',
   lista: [
     '-> Flexbox Layout',
     'ㅤ- display: flex',
@@ -339,7 +374,7 @@ const pageDark = {
     'ㅤ- text-shadow',
     '-> Media Queries',
   ],
-  link: 'https://pagedark.projetosalexandre.com/',
+  link: '',
   pasta: '/htmlcssprops',
 
   classe1: 'html',
@@ -359,10 +394,16 @@ const pageDark = {
   porcentagem1: '76.6%',
   porcentagem2: '23.4%',
   porcentagem3: '',
+
+  desafios: `Um projeto bem mais complexo e robusco, modesta a parte, eu diria que é uma clone do
+  ifood. Com diversas funcionalidade, cardápio com diversos produtos, tem a opção de
+  adicionar ao carrinho, retirar produtos ou adicionar mais se queiser, seus dados de
+  carrinho ficam salvos se por algum acaso recarregar a pagina, depois também tem o
+  metodo de pagamento, com filtros de cartão de credito, cpf, numero`,
 }
 const geradorSenha = {
   nome: 'Gerador de Senha',
-  descricao: 'Uma simples pagina de login para treinar meu css na época.',
+  descricao: 'Gerador de senha para criar sua senha forte e segura com todos os caracteres.',
   img: [geradorsenha1, geradorsenha2, geradorsenha3],
   texto:
     'Um site para você gerar uma senha aletória, forte e segura, com todos os caracteres possíveis para gerar sua senha. Um projeto somente com HTML CSS e Lógica de programação. Com diversar interações criadas, como uma barra que você escolhe com quantas letras a sua senha gerada vai ter, e botões de copiar e gerar nova senha, caso não tenha gostado. ',
@@ -374,7 +415,7 @@ const geradorSenha = {
     '-> mplementação de feedback visual ',
     '-> Organização e Estruturação do Código',
   ],
-  link: 'https://geradorsenha.projetosalexandre.com/',
+  link: '',
   pasta: '/htmlcssprops',
 
   classe1: 'html',
@@ -394,10 +435,16 @@ const geradorSenha = {
   porcentagem1: '61.5%',
   porcentagem2: '38.5%',
   porcentagem3: '',
+
+  desafios: `Um projeto bem mais complexo e robusco, modesta a parte, eu diria que é uma clone do
+  ifood. Com diversas funcionalidade, cardápio com diversos produtos, tem a opção de
+  adicionar ao carrinho, retirar produtos ou adicionar mais se queiser, seus dados de
+  carrinho ficam salvos se por algum acaso recarregar a pagina, depois também tem o
+  metodo de pagamento, com filtros de cartão de credito, cpf, numero`,
 }
 const hotelAlexandre = {
   nome: 'Hotel Alexandre',
-  descricao: 'Site para fazer reservas de hotel feito com bootstrap',
+  descricao: 'Site para fazer reservas de hotel, feito com bootstrap',
   img: [
     hotelalexandre1,
     hotelalexandre2,
@@ -420,7 +467,7 @@ const hotelAlexandre = {
     '-> Regras de Mídia',
     'ㅤ- Ajusta o tamanho das imagens para diferentes tamanhos de tela',
   ],
-  link: 'https://hotelalexandre.projetosalexandre.com/',
+  link: '',
   pasta: '/htmlcssprops',
 
   classe1: 'html',
@@ -440,6 +487,12 @@ const hotelAlexandre = {
   porcentagem1: '95.5%',
   porcentagem2: '4.5%',
   porcentagem3: '',
+
+  desafios: `Um projeto bem mais complexo e robusco, modesta a parte, eu diria que é uma clone do
+  ifood. Com diversas funcionalidade, cardápio com diversos produtos, tem a opção de
+  adicionar ao carrinho, retirar produtos ou adicionar mais se queiser, seus dados de
+  carrinho ficam salvos se por algum acaso recarregar a pagina, depois também tem o
+  metodo de pagamento, com filtros de cartão de credito, cpf, numero`,
 }
 const petLife = {
   nome: 'Pet Life',
@@ -455,7 +508,7 @@ const petLife = {
     '-> Manipulação de classes HTML com JavaScript',
     'ㅤ- document.querySelectorAll',
   ],
-  link: 'https://petlife.projetosalexandre.com/',
+  link: '',
   pasta: '/htmlcssprops',
 
   classe1: 'html',
@@ -475,11 +528,16 @@ const petLife = {
   porcentagem1: '66.8%%',
   porcentagem2: '31.6%',
   porcentagem3: '1.6%',
+
+  desafios: `Um projeto bem mais complexo e robusco, modesta a parte, eu diria que é uma clone do
+  ifood. Com diversas funcionalidade, cardápio com diversos produtos, tem a opção de
+  adicionar ao carrinho, retirar produtos ou adicionar mais se queiser, seus dados de
+  carrinho ficam salvos se por algum acaso recarregar a pagina, depois também tem o
+  metodo de pagamento, com filtros de cartão de credito, cpf, numero`,
 }
 const jogoPingPong = {
   nome: 'Jogo Ping Pong',
-  descricao:
-    'Um jogo de ping pong classico e bem divertido, para você jogar contra um robo muito lento. ',
+  descricao: 'Um jogo de ping pong classico e bem divertido, para você jogar contra sua maquina ',
   img: [jogopingpong1, jogopingpong2],
   texto:
     'Meu primeiro projeto com html. Jogo de ping Pong simples porem divertido, para jogar contra a sua maquina, tive que deixar ela mais lenta para ter alguma chance de ganhar, projeto feito somente com html e lógica de programação. A utilização do Canvas para estilizar gráficos interativos foi muito divertido, não tinha nem ideia de que era tão facil de criar um jogo com html depois de conhecer o canvas. ',
@@ -508,6 +566,12 @@ const jogoPingPong = {
   porcentagem1: '100%',
   porcentagem2: '',
   porcentagem3: '',
+
+  desafios: `Um projeto bem mais complexo e robusco, modesta a parte, eu diria que é uma clone do
+  ifood. Com diversas funcionalidade, cardápio com diversos produtos, tem a opção de
+  adicionar ao carrinho, retirar produtos ou adicionar mais se queiser, seus dados de
+  carrinho ficam salvos se por algum acaso recarregar a pagina, depois também tem o
+  metodo de pagamento, com filtros de cartão de credito, cpf, numero`,
 }
 
 //
@@ -516,8 +580,7 @@ const jogoPingPong = {
 
 const lojaApple = {
   nome: 'Loja Apple',
-  descricao:
-    'Uma cópia do site da Apple vendendo Smart Wath, porem com todas as interações funcionando',
+  descricao: 'Uma cópia do site da Apple vendendo Smart Wath, com todas as interações funcionando',
   img: [lojaapple1, lojaapple2, lojaapple3, lojaapple4],
 
   texto:
@@ -530,7 +593,7 @@ const lojaApple = {
     'ㅤ- funções reutilizáveis',
   ],
 
-  link: 'https://applesmartwatch.projetosalexandre.com/',
+  link: '',
   pasta: '/javascriptprops',
 
   classe1: 'javascript',
@@ -550,10 +613,16 @@ const lojaApple = {
   porcentagem1: '16.8%',
   porcentagem2: '56.6%',
   porcentagem3: '26.7%',
+
+  desafios: `Um projeto bem mais complexo e robusco, modesta a parte, eu diria que é uma clone do
+  ifood. Com diversas funcionalidade, cardápio com diversos produtos, tem a opção de
+  adicionar ao carrinho, retirar produtos ou adicionar mais se queiser, seus dados de
+  carrinho ficam salvos se por algum acaso recarregar a pagina, depois também tem o
+  metodo de pagamento, com filtros de cartão de credito, cpf, numero`,
 }
 const playMusica = {
   nome: 'Play Musica',
-  descricao: 'Um tocar de audio de Machado de Assis, uma copia fajuta do spotify',
+  descricao: 'Um tocador de audio das obras de Machado de Assis.',
   img: [playmusica1, playmusica2, playmusica3],
   texto:
     'Um projeto de para ouvir audiobooks, aprendi a manipular dinamicamente elementos do Document Object Model (DOM) utilizando JavaScript. O código permite controlar a reprodução de faixas de áudio, avançar e retroceder entre os capítulos do livro, além de exibir informações dinâmicas, como o título do capítulo atual mudando o nome conforme avanço a musica. Utilizando eventos de clique, consegui implementar funcionalidades como tocar, pausar, avançar e retroceder. A estruturação e organização do código foram essenciais para criar funções reutilizáveis e manter o projeto organizado.',
@@ -564,7 +633,7 @@ const playMusica = {
     '-> Estruturação e organização',
     'ㅤ- manutenção e escalabilidade.',
   ],
-  link: 'https://playmusica.projetosalexandre.com/',
+  link: '',
   pasta: '/javascriptprops',
 
   classe1: 'javascript',
@@ -584,11 +653,16 @@ const playMusica = {
   porcentagem1: '47.4%',
   porcentagem2: '28.1%',
   porcentagem3: '24.5%',
+
+  desafios: `Um projeto bem mais complexo e robusco, modesta a parte, eu diria que é uma clone do
+  ifood. Com diversas funcionalidade, cardápio com diversos produtos, tem a opção de
+  adicionar ao carrinho, retirar produtos ou adicionar mais se queiser, seus dados de
+  carrinho ficam salvos se por algum acaso recarregar a pagina, depois também tem o
+  metodo de pagamento, com filtros de cartão de credito, cpf, numero`,
 }
 const restauranteWatsApp = {
   nome: 'Restaurante WhastApp',
-  descricao:
-    'Um Restaurante online com uma api do whatsapp, que no final do pedido sera direcionado para meu whatsappkkkkkkkk',
+  descricao: 'Um Restaurante online com uma api de pedidos pelo Whatsapp',
   img: [
     restaurantewatsapp1,
     restaurantewatsapp2,
@@ -630,6 +704,12 @@ const restauranteWatsApp = {
   porcentagem1: '90%',
   porcentagem2: '80%',
   porcentagem3: '70%',
+
+  desafios: `Um projeto bem mais complexo e robusco, modesta a parte, eu diria que é uma clone do
+  ifood. Com diversas funcionalidade, cardápio com diversos produtos, tem a opção de
+  adicionar ao carrinho, retirar produtos ou adicionar mais se queiser, seus dados de
+  carrinho ficam salvos se por algum acaso recarregar a pagina, depois também tem o
+  metodo de pagamento, com filtros de cartão de credito, cpf, numero`,
 }
 
 //
