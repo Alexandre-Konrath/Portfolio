@@ -38,6 +38,7 @@ export default function DetalhesProjetos() {
           porcentagem1={projeto.porcentagem1}
           porcentagem2={projeto.porcentagem2}
           porcentagem3={projeto.porcentagem3}
+          desafios={projeto.desafios}
         />
       ))}
     </Container>
