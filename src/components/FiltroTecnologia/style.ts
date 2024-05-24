@@ -11,14 +11,14 @@ export const Container = styled.div`
       border: none;
 
       background-color: transparent;
-      color: ${({theme}) => theme.colors.grey};
+      color: ${({ theme }) => theme.colors.grey};
 
       &:hover {
-        color: ${({theme}) => theme.colors.white100};
+        color: ${({ theme }) => theme.colors.white100};
       }
 
       &:focus {
-        color: ${({theme}) => theme.colors.purple_secondary};
+        color: ${({ theme }) => theme.colors.purple_secondary};
       }
     }
   }
@@ -36,14 +36,14 @@ export const Container = styled.div`
         border: none;
 
         background-color: transparent;
-        color: ${({theme}) => theme.colors.grey};
+        color: ${({ theme }) => theme.colors.grey};
 
         &:hover {
-          color: ${({theme}) => theme.colors.white100};
+          color: ${({ theme }) => theme.colors.white100};
         }
 
         &:focus {
-          color: ${({theme}) => theme.colors.purple_secondary};
+          color: ${({ theme }) => theme.colors.purple_secondary};
         }
       }
     }
